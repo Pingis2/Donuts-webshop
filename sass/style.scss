@@ -1,0 +1,12 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    @import 'mobile';
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1279px){
+    @import 'tablet';
+  }
+  
+  
+  @media screen and (min-width: 1280px) {
+    @import 'desktop';
+  }
