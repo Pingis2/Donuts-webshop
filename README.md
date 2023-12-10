@@ -52,4 +52,9 @@ Responsiviteten är defintivt inte den bästa, men jag tror att jag har ett bra 
 
 Validering inom css var felfritt. Validering för html ser ganska bra ut också, enda problemet är att jag har "main" tagg flera gånger på min home-fil, det är för att jag vill att man ska kunna se vart varje sida tar slut någonstans, också därför nav menyn syns flera gånger.
 
+Ett svårt och utmanande projekt som testade min förmåga att kunna lära mig något helt nytt på kort tid och använda det på riktigt. Grunderna inom JavaScript sitter svagt men det blir nog bättre med tiden.
+HTML och css delen känner jag att den sitter vädligt bra nu, mest responsivitet som behövs jobbas på.
+
+/Anton Schyberg
+
 
