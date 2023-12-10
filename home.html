@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Gjord av Anton Schyberg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    
+  <header>
+   	<nav>
+			<button class="hamburger" aria-label="hamburgar meny">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="title-and-search">
+				<h1> Gottfrids Munkshop</h1>
+				<input class="search-bar" type="text" placeholder="sök">
+			</div>
+			<div class="icons">
+					<a href="#"> <img src="images/sign-in.png" width="60" height="60" alt="logga in ikon" loading="lazy"></a>
+					<a href="cart.html"> <img src="images/shopping-cart.png" width="60" height="60" alt="kundvagn ikon" loading="lazy"></a>
+			</div>
+		</nav>
+  </header>
+
+	<main class="background">
+		<section>
+			<h2>Våra nyheter</h2>
+			<span class="break-line"></span>
+			<div class="slideshow">
+				<p>här ska det egentligen vara en slideshow men alla exempel som jag hittat på 
+					google fungerar inte, eller så gör jag fel, och jag är inte bra nog på js för att
+					kunna göra min egen. Så njut av min lilla rant om att js kan gå och ta sig. tack!
+				</p>
+			</div>
+			
+			<h2>Populärt</h2>
+			<span class="break-line"></span>
+
+			<div class="donut-type">
+				
+				<section class="sweet">
+					<a href="#">
+						<div class="img">
+							<img src="images/donut-5.png" alt="bild på blå munk" loading="lazy">
+						</div>
+						<p class="title-1">Söta munkar</p>
+					</a>
+				</section>
+
+				<section class="sour">
+					<a href="#">
+						<div class="img">
+							<img src="images/donut-3.png" alt="bild på blå munk" loading="lazy">
+						</div>
+						<p class="title-1">Sura munkar</p>
+					</a>
+				</section>
+
+				<section class="choklad">
+					<a href="#">
+						<div class="img">
+							<img src="images/donut-1.png" alt="bild på blå munk" loading="lazy">
+						</div>
+						<p class="title-2">Choklad munkar</p>
+					</a>
+				</section>
+
+				<section class="fruktig">
+					<a href="#">
+						<div class="img">
+							<img src="images/donut-17.png" alt="bild på blå munk" loading="lazy">
+						</div>
+						<p class="title-2">Fruktiga munkar</p>
+					</a>
+				</section>
+
+				
+			</div>
+		</section>
+	</main>
+
+	<header>
+		<nav>
+			 <button class="hamburger" aria-label="en hamburger meny">
+				 <span></span>
+				 <span></span>
+				 <span></span>
+			 </button>
+			 <div class="title-and-search">
+				 <h1> Gottfrids Munkshop</h1>
+				 <input class="search-bar" type="text" placeholder="sök">
+			 </div>
+			 <div class="icons">
+				 <a href="#"> <img src="images/sign-in.png" width="60" height="60" alt="logga in ikon" loading="lazy"></a>
+				 <a href="cart.html"> <img src="images/shopping-cart.png" width="60" height="60" alt="kundvagn ikon" loading="lazy"></a>
+			 </div>
+		 </nav>
+   </header>
+ 
+	 <main class="background">
+		 <section>
+			 <div class="filter" id="filter">
+			 </div>
+			 <div class="donuts" id="donuts">
+			 </div>
+		 </section>
+		 
+	 </main>
+
+	 <header>
+		<nav>
+		 <button class="hamburger" aria-label="en hamburger meny">
+		   <span></span>
+		   <span></span>
+		   <span></span>
+		 </button>
+		 <div class="title-and-search">
+		   <h1> Gottfrids Munkshop</h1>
+		   <input class="search-bar" type="text" placeholder="sök">
+		 </div>
+		 <div class="icons">
+		   <a href="#"> <img src="images/sign-in.png" width="60" height="60" alt="logga in ikon" loading="lazy"></a>
+		   <a href="cart.html"> <img src="images/shopping-cart.png" width="60" height="60" alt="kundvagn ikon" loading="lazy"></a>
+		 </div>
+	   </nav>
+	 </header>
+	
+	  <main class="background">
+		<div>
+		  <h2>Beställningssammanfattning</h2>
+		  <span class="break-line"></span>
+		</div>
+		<div></div>
+		<div class="cart" id="cart"></div>
+		<h2>Uppgifter om kund</h2>
+		<span class="break-line"></span>
+	
+		<div class="customer-info" id="customer-info">
+		</div>
+
+		<h2>Betala</h2>
+		<div class="payment-options">
+			<div class="card-selector">
+			  <label>
+				<input type="radio" name="payment-option" value="card" checked aria-label="knapp för att välja betalsätt.">
+				<span>Kort</span>
+			  </label>
+
+			  <div class="card" id="card">
+				<label>
+				  <span>Kortnummer</span>
+				  <input type="number" id="creditCardNumber" placeholder="5100080000000000" aria-label="skriv in kortnummer.">
+				</label>
+				<label>
+				  <span>Datum</span>
+				  <span>
+					  <input type="number" class="small" placeholder="YY" id="creditCardYear" aria-label="skriv in år.">
+					  <input type="number" class="small" placeholder="MM" id="creditCardMonth" aria-label="skriv in månad.">
+					</span>
+				</label>
+				<label>
+				  <span>CVC</span>
+				  <input type="number" placeholder="123" id="creditCardCvc" aria-label="skriv in cvc kod.">
+				</label>
+			  </div>
+			</div>
+
+			<div class="vertical-line"></div>
+
+			<div class="invoice-selector">
+				<label>
+					<span>Faktura</span>
+					<input type="radio" name="payment-option" value="invoice" tabindex="0">
+				</label>
+
+				<div class="invoice" id="invoice">
+					<label>
+					  <span>Personnummer</span>
+					  <input type="text" name="personal-id" id="personalID" placeholder="19850505-1234">
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="terms-condi">
+		  	<input type="checkbox" id="privpoli" aria-label="knapp för att acceptera vilkor">
+			<p>Jag godkänner vilkor och annat tråkigt som ingen läser.</p>
+		</div>
+
+		<div class="news-letters">
+			<input type="checkbox" checked aria-label="knapp för att bevilja nyheter, rabatter och erbjudanden">
+			<p>Jag vill du få email om nyheter, rabatter och erbjudanden.</p>
+		</div>
+
+		  <button id="orderBtn" class="orderBtn" disabled>Beställ</button>
+		
+		<h2>Orderbekräftelse</h2>
+		<span class="break-line"></span>
+	  </main>
+
+	  
+
+<footer>
+	<p>fett coola länkar här nere</p>
+</footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
